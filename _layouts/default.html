@@ -34,12 +34,8 @@
 
     <div class="container" dir="rtl">
       <section id="main_content">
-        <section class="posts-grid">
-  {% assign posts_to_show = site.posts | where_exp:"p","p.published != false" %}
-  {% for post in posts_to_show %}
-    {% include post-card.html post=post %}
-  {% endfor %}
-</section>
+        {{ content }}
+        
       </section>
     </div>
   </body>
