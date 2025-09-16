@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
+amin
 <ul>
-xx
   {% for post in site.posts %}
-    gsdfgsdfgsfgsdfg
+    <li>{{ post.title }} — {{ post.date | date: "%Y-%m-%d" }}</li>
   {% endfor %}
 </ul>
