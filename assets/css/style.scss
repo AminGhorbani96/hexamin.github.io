@@ -2,3 +2,13 @@
 ---
 
 @import 'jekyll-theme-hacker';
+@font-face {
+    font-family: 'Sahel';
+    src: url('../fonts/sahel/Sahel.woff2') format('woff2'),
+         url('../fonts/sahel/Sahel.woff') format('woff'),
+         url('../fonts/sahel/Sahel.ttf') format('truetype'),
+         url('../fonts/sahel/Sahel.eot') format('embedded-opentype'),
+         url('../fonts/sahel/Sahel.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
