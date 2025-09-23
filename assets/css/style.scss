@@ -12,3 +12,19 @@
     font-weight: normal;
     font-style: normal;
 }
+.post-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 20px 0;
+  background: #fff;
+  transition: transform .2s;
+}
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+.post-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
