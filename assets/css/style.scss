@@ -28,3 +28,29 @@
   max-width: 100%;
   border-radius: 8px;
 }
+/* --- force code blocks to LTR (only blocks, not inline code) --- */
+
+/* اصلی‌ترین سلکتورها برای Jekyll + اکثر های‌لایت‌ها */
+pre,
+pre code,
+.highlight pre,
+.highlight code,
+code[class*="language-"] {
+  direction: ltr !important;        /* جهت متن را LTR می‌کند */
+  unicode-bidi: embed !important;   /* رفتار یونیکد را برای LTR تضمین می‌کند */
+}
+
+/* برای نمایش بهتر (جهت نمایش، اسکرول افقی و فونت مونواسپیس) */
+pre, .highlight pre {
+  text-align: left;                 /* متن داخل بلوک چپ‌چین شود */
+  white-space: pre;                 /* حفظ فضاها و خطوط */
+  overflow-x: auto;                 /* اسکرول افقی در صورت طولانی بودن خط */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco,
+               "Roboto Mono", "Courier New", monospace;
+  hyphens: none;                    /* قطع شکستن کلمه در میان رشته‌های کد */
+}
+
+/* اگر می‌خواهی بلوک‌های کد در موبایل هم خوب باشند */
+@media (max-width: 640px) {
+  pre, .highlight pre { font-size: 0.95rem; }
+}
