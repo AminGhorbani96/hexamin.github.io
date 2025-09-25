@@ -27,9 +27,11 @@ tag: #linux #threathunting
 libLIbNAME.so.Version
 ```
 معمولا هم در یکی از دو مسیر زیر هستند:
-* /lib*/
-* /usr/lib*/
-                                                                                                         
+
+```
+/lib*/
+/usr/lib*/
+```                                                                                                         
 ![تصویر دستور Linux_Shared_Library_List](/assets/images/Linux_Shared_Library_List.png)
 
 برای اینکه لیست Library های یک برنامه رو بدست بیاریم از دستور زیر استفاده میکنیم
@@ -38,6 +40,7 @@ libLIbNAME.so.Version
 ldd /usr/bin/PEName
 ```
 ![تصویر دستور ldd_command](/assets/images/ldd_command.png)
+
 فرض کنید من حالا میخوام از یه دستور دیگه به اسم ldconfig استفاده کنم و نمیدانم کجاست با دستور زیر اول آن را پیدا میکنم
 
 ```bash
