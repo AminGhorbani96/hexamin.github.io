@@ -70,7 +70,7 @@ cat /etc/ld.so.conf
 ```bash
 ldonfig -p
 ```
-![تصویر دستور ldconfig_command](/assets/images/ldCldconfig_commandonf.png)
+![تصویر دستور ldconfig_command](/assets/images/ldCldconfig.png)
 
 حالا یه سوال اساسی این است که وقتی یه برنامه رو اجرا میکنید کجاها دنبال این Shared Libها میگردد:
 1. LD_LIBRARY_PATH environment variable
