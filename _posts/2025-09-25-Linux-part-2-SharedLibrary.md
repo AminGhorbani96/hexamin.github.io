@@ -5,7 +5,8 @@ date: 2025-09-25 14:00:00 +0330
 categories: linux lpic threat-hunting
 image: /assets/images/Linux_Shared_Library_List.png
 description: "در این بخش میخواهیم درباره Shared Library ها در لینوکس صبحت کنیم"
-tag: #linux #threathunting
+tag: [shared-library, linux, ldconfig, ldd, dynamic-linking, static-linking]
+author: "amin Ghorbani"
 ---
 
 ## مدیریت Shared Libraryها
