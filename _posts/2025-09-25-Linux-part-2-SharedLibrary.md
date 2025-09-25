@@ -1,3 +1,13 @@
+---
+layout: post
+title: "قسمت دوم آموزش لینوکس - Shared Library"
+date: 2025-09-25 14:00:00 +0330
+categories: linux lpic threat-hunting
+image: /assets/images/Linux_Shared_Library_List.png
+description: "در این بخش میخواهیم درباره Shared Library ها در لینوکس صبحت کنیم"
+tag: #linux #threathunting
+---
+
 ## مدیریت Shared Libraryها
 
 در اینجا میخواهیم درباره Shared Libraryها صبحت کنیم که در حقیقت تکه کدهایی که میتونن تابع یا کلاس باشند و به صورت کامپایل شده در سیستم قرار دارند و برنامه های مختلف میتوانند از آن ها استفاده کنند. این کتابخانه ها در لینوکس با پسوند so. شناخته میشوند ( در ویندوز dllها هستند ).
@@ -20,14 +30,14 @@ libLIbNAME.so.Version
 * /lib*/
 * /usr/lib*/
                                                                                                          
-![[Linux_Shared_Library_List.png]]
+![تصویر دستور Linux_Shared_Library_List](/assets/images/Linux_Shared_Library_List.png)
+
 برای اینکه لیست Library های یک برنامه رو بدست بیاریم از دستور زیر استفاده میکنیم
 
 ```bash
 ldd /usr/bin/PEName
 ```
-![[ldd_command.png]]
-
+![تصویر دستور ldd_command](/assets/images/ldd_command.png)
 فرض کنید من حالا میخوام از یه دستور دیگه به اسم ldconfig استفاده کنم و نمیدانم کجاست با دستور زیر اول آن را پیدا میکنم
 
 ```bash
