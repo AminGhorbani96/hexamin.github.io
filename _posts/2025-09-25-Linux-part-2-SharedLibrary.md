@@ -45,7 +45,7 @@ ldd /usr/bin/PEName
 فرض کنید من حالا میخوام از یه دستور دیگه به اسم ldconfig استفاده کنم و نمیدانم کجاست با دستور زیر اول آن را پیدا میکنم
 
 ```bash
-locat dlconfig
+locate dlconfig
 ```
 
 خب حالا میریم ldd میگیریم:
@@ -68,9 +68,9 @@ cat /etc/ld.so.conf
 برنامه برای اینکه همین این مسیر ها را بگردد زمان بر است فلذا دستوری داریم به اسم ldconfig که یک فایل cache درست میکند و برنامه ها میرن اینو نگاه میکنن :)
 
 ```bash
-ldonfig -p
+ldconfig -p
 ```
-![تصویر دستور ldconfig_command](/assets/images/ldconfig.png)
+![تصویر دستور ldconfig_command](/assets/images/ldconfig_command.png)
 
 حالا یه سوال اساسی این است که وقتی یه برنامه رو اجرا میکنید کجاها دنبال این Shared Libها میگردد:
 1. LD_LIBRARY_PATH environment variable
