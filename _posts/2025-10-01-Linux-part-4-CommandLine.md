@@ -114,7 +114,7 @@ uname -a
 ```bash
 man uname
 ```
-![خروجی man uname](/assets/images/mancommand.png)
+![خروجی man uname](/assets/images/manC.png)
 
 
 ### متغیرهای محیطی 
