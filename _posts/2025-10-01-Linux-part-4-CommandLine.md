@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "قسمت جهارم آموزش لینوکس - Shell and Terminal"
+title: "قسمت چهارم آموزش لینوکس - Shell and Terminal"
 date: 2025-10-01 14:00:00 +0330
 categories: linux lpic threat-hunting
 image: /assets/images/bash.png
