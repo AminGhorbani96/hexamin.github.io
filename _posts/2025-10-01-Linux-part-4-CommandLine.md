@@ -48,12 +48,12 @@ echo $SHELL
 type cd
 ```
 
-![نمونه خروجی type cd](/assets/images/type%20command.png)
+![نمونه خروجی type cd](/assets/images/typecommand.png)
 
 ```bash
 type ping
 ```
-![نمونه خروجی type ping](/assets/images/type ping command.png)
+![نمونه خروجی type ping](/assets/images/typepingcommand.png)
 
 یک سری دستورات در لینوکس هستند که خیلی ساده هستند احتمالا همه ما هم بلدیم شبیه cd, pwd, ls و از این دست دستورات. داشتم فکر میکردم که اینا رو اینجا درباره شون بنویسم یا رد شم و برم تصمیم گرفتم برای اینکه بحث ناقص نباشه کوتاه و مختصر بگم ... پیشنهاد هم میکنم شما هم بخونید
 
@@ -108,14 +108,14 @@ pwd
 ```bash
 uname -a
 ```
-![خروجی uname](/assets/images/uname command.png)
+![خروجی uname](/assets/images/unamecommand.png)
 
 یه نکته مهم اینجا هست شما هر دستوری رو که بخواهید بزنید و نیاز داشته باشید سوییچ هاش رو به یادتون بیارید به راحتی با man میتونید اینکار رو کنید
 
 ```bash
 man uname
 ```
-![خروجی man uname](/assets/images/man command.png)
+![خروجی man uname](/assets/images/mancommand.png)
 
 
 ### متغیرهای محیطی 
@@ -126,13 +126,13 @@ man uname
 var="Hello World!"
 echo $var
 ```
-![خروجی تعریف متغیر](/assets/images/Bash Variable.png)
+![خروجی تعریف متغیر](/assets/images/BashVariable.png)
 خود Shell تعداد زیادی متغیر داره که بهشون Environment Variable میگوییم شما با دستور زیر لیست همه رو میبینید:
 
 ```bash
 env
 ```
-![خروجی env](/assets/images/env command.png)
+![خروجی env](/assets/images/envcommand.png)
 شما با یه سری دستوراتمیتونید اطلاعات خوبی در بیارید مثلا فرض کن من میخوام بدونم وقتی ping میزنم چی اجرا میشه اینجا کافیه بزنم
 ```bash
 which ping
@@ -141,11 +141,11 @@ which ping
 
 این اتفاق با کمک PATH که در env تعریف شده میاد، اما این PATH چیه؟ در حقیقت لیست پوشه هایی که SHELL در آن ها باید دنبال دستورات و برنامه های کاربردی بگردد است.
 
-![متغیر PATH](/assets/images/PATH%20ENVIRONMENT%20VARIABLE.png)
+![متغیر PATH](/assets/images/PATHENVIRONMENTVARIABLE.png)
 
 یکی دیگر از متغیرهای محلی تعریف شده HISTFILE است که ادرس BASH_HISTORY رو در خودش داره... شاید براتون سوال شه BASH_HISTORY چیه؟ این فایل فایلی است که هر وقت شما یک دستور را در SHELL اجرا میکنید به تهش اضافه میشه و لاگ میافته 
 
-![متغیر HISTFILE](/assets/images/HISTFILE%20VARIABLE.png)
+![متغیر HISTFILE](/assets/images/HISTFILEVARIABLE.png)
 
 اما این عکس بالا رو با دقت نگاه کنید هر USER در سیستم لینوکسی BASH HISTROY خودش رو داره این خیلی هم منطقیه .... 
 خب معمولا این فایل خیلی بزرگه اگر دنبال یه دستور هستم که بخشیش یادمه و قبلا اجرا ککردم میتونم در آن ctrl + R رو بزنم و بخشی از دستور رو بنویسم
@@ -157,7 +157,7 @@ which ping
 حالا خوبه یه مقدار بریم ببینیم این متغیر PATH دقیقا چیه؟ گفتیم لیست پوشه هایی که SHELL در آن ها باید دنبال دستورات و برنامه های کاربردی بگردد است. 
 فرض کنید من یه دستوری را در TERMINAL خودم مینویسم، SHELL اولین کاری که میکند این است که بررسی میکنه این دستور آیا در دستورات داخلیش وجود دارد یا خیر اگر بود اجرا میکنه اگر نبود میره سراغ مسیرهایی که داخل PATH هست یا نه ... این بررسی به ترتیب اتفاق میافته مثلا ماشین زیر رو در نظر بگیرید:
 
-![نمونه PATH در لینوکس](/assets/images/Linux%20PATH.png)
+![نمونه PATH در لینوکس](/assets/images/LinuxPATH.png)
 
  شما اگر در این ماشین یه دستوری را بزنید ترتیبی که shell دنبالش میگرده به شکل زیر است:
  1. دستورات داخلی
