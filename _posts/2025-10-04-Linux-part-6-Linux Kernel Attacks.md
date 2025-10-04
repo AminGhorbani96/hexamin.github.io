@@ -3,7 +3,7 @@ layout: post
 title: Linux Kernel Attacks
 date: 2025-10-04 03:00:00 +0330
 categories: linux lpic threat-hunting keylogger kernel_module ko syscall hooking
-image: /assets/images/ls_ld_switch.png
+image: /assets/images/KEYLOG.png
 description: این قسمت یکم رنگ و بوی Red Team داره، علاوه بر مفاهیمی مانند syscall و hook، یه حمله رو باهم شبیه سازی میکنیم، حمله ای که تو اون مهاجم یه kernel module رو نصب و hidden میکنه تا keylog انجام بده
 tag:
   - linux
