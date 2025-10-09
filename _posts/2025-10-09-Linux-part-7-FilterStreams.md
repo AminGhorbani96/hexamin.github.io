@@ -7,10 +7,8 @@ image: /assets/images/od_command.png
 description: اینجا دوباره بر میگردیم به Terminal لینوکس و سعی میکنیم یکم با streamهای متنی که توش هست بازی کنیم.
 tag:
   - linux
-  - keylog
-  - syscall
-  - hook
   - kernel_module
+  - stream
 author: amin Ghorbani
 ---
 ## استریم‌های متنی در لینوکس در خط فرمان
