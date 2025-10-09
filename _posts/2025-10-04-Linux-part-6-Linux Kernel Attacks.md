@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux Kernel Attacks
+title: قسمت ششم آموزش لینوکس Linux Kernel Attacks
 date: 2025-10-04 03:00:00 +0330
 categories: linux lpic threat-hunting keylogger kernel_module ko syscall hooking
 image: /assets/images/KEYLOG.png
