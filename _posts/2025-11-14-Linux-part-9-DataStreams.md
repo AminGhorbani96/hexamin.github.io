@@ -3,7 +3,7 @@ layout: post
 title: قسمت نهم آموزش لینوکس - Data Flow and File Descriptors
 date: 2025-11-14 03:00:00 +0330
 categories: linux lpic threat-hunting streams
-image: /assets/images/touch_command.png
+image: /assets/images/standard-stream.png
 description: "ما در لینوکس Streamهای زیادی میبینیم مثلا وقتی شما در Terminal یک دستور اجرا میکنید، یک Stream خروجی خط به خط رو در صفحه Terminalخودتون میبینید. در این بخش قصد داریم کمی بیش از مباحث LPIC به سراغ این مفاهیم بریم و درباره شون یاد بگیریم. این بحث شامل مفاهیم متعددی است که در این قسمت و قسمت 10 به آن ها خواهیم پرداخت مواردی مثل : Streams, File Descriptor, Data Flow, PIPE , Redirection"
 tag:
   - linux
